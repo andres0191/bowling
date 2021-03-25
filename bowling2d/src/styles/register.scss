@@ -1,8 +1,10 @@
+@import './standar.scss';
+
 .register {
     display: flex;
     flex-direction: column;
-    color: whitesmoke;
-    text-shadow: 0px 0px 40px greenyellow;
+    color: $title-color;
+    text-shadow: $text-shadow-header;
 }
 
 .div-h1-titleTwo {
@@ -11,8 +13,8 @@
 }
 
 .container {
-    border: solid 2px red;
-    box-shadow: 0px 0px 30px greenyellow;
+    border: solid 2px #131e1f;
+    box-shadow: 0px 0px 30px #58a9c7;
     width: 50%;
     border-radius: 40px;
     margin: auto;

@@ -3,7 +3,7 @@ import { IconContext } from "react-icons";
 import { AiFillTwitterSquare } from 'react-icons/ai';
 import { ImLinkedin } from 'react-icons/im';
 import { SiGithub } from 'react-icons/si';
-import '../styles/footer.scss'
+import '../styles/footer.scss';
 
 
 function Footer(){
@@ -38,6 +38,5 @@ function Footer(){
         </div>
     )
 }
-
 
 export default Footer

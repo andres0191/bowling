@@ -1,9 +1,9 @@
-import React from 'react';
+import { React, useState, useEffect} from 'react';
 import '../styles/header.scss';
-import Swal from 'sweetalert'
+import Swal from 'sweetalert';
+import NewGame from './Newgame';
 
 function Header() {
-
 
       const Rules = (event) => {
         Swal({
@@ -29,18 +29,20 @@ function Header() {
               },
               className:"rules"
             })
-      }
+      } 
 
       return(
-          <div className="header">
+        <div>
+          (<div className="header">
               <ul className="div-ul-options">
                   <li onClick={Rules} className='button'>Rules</li>
                   <li onClick={Instructions} className='button'>Instructions</li>
-                  <li><a href="./newgame" className="button">Home</a></li>
+                  <li><a  href="./Newgame" className="button">Home</a></li>
               </ul>
           </div>
-
+        </div>
       )
+
   }
 
 export default Header;

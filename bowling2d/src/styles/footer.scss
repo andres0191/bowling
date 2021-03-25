@@ -1,9 +1,11 @@
+@import './standar.scss';
+
 #footer {
     position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
-    color: white;
+    color: $text-btn-color;
 }
 
 .div-ul-list {
@@ -17,5 +19,5 @@
 }
 
 .copyright {
-    color: whitesmoke;
+    color: $title-color;
 }

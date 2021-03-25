@@ -1,14 +1,16 @@
+@import './standar.scss';
+
 .rules {
     background: #111;
     color: red;
 }
 .swal-title:not(:last-child){
-    color: white;
+    color: $text-btn-color;
 }
 
 .swal-button {
     background-color: #05435b;
-    text-shadow: 0px 0px 4px black;
+    text-shadow: $text-shadow-header;
 
     &:hover{
         background-color: red;
@@ -32,12 +34,11 @@
 
 .button{
     background: none;
-    /* color: #a96767; */
-    color: whitesmoke;
+    color: $title-color;
     text-decoration: none;
     justify-content: space-around;
     margin: 30px;
     font-size: 30px;
-    text-shadow: 0px 0px 10px #ff1800;
+    text-shadow: $text-shadow-header;
     cursor: pointer;
 }
