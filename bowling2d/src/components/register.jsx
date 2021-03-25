@@ -1,34 +1,63 @@
-import { React } from 'react';
+import { React, useState, useEfect } from 'react';
 import { useDispatch } from 'react-redux';
+import Start from './Start';
 import '../styles/register.scss';
-import Header from './header';
 
 function Register() {
-    const dispatch = useDispatch();
+    const [values, setValues] = useState({playerOne:"", playerTwo:""});
+    const [status, setStatus] = useState(true);
 
+    const handleChange = (event) => {
+        const {name, value} = event.target;
+        setValues({ ...values, [name]:value })
+    }
+
+    const handleSubmit = (event) => {
+        event.preventDefault();
+        console.log(values)
+    }
+    
+    const handleNavigation = () => {
+        setStatus(false)
+    }
         return(
+            <div>
+            {status ?
+            (
             <div className="register">
-                <div>
-                    <Header/>
-                </div>
                 <h1 className="div-h1-titleTwo">Welcome</h1><br/>
                 <div className="container">
                     <div className="container-inputs">
                         <label className="div-label-firstPlayer">
                             <h4>Player 1</h4>
-                            <input className="players-inputs" id="playerOne" type="text" placeholder="What's your name?"></input>
+                            <input
+                                className="players-inputs"
+                                id="playerOne"
+                                type="text"
+                                placeholder="What's your name?"
+                                onChange={handleChange}
+                                value={values.playerOne}
+                                name="playerOne"/>
                         </label>
                         <label className="div-label-secondPlayer">
                             <h4>Player 2</h4>
-                            <input className="players-inputs" id="playerTwo" type="text" placeholder="What's your name?"></input>
+                            <input
+                                className="players-inputs"
+                                id="playerTwo"
+                                type="text"
+                                placeholder="What's your name?"
+                                onChange={handleChange}
+                                value={values.playerTwo}
+                                name="playerTwo"/>
                         </label>
                         <div className='btn'>
-                    <button type="button" className="btn-start"><a className="btn-a-nav" href='./start'>Start 🎳</a></button>
-                    <button  type="button" className="btn-start"><a className="btn-a-nav" href="./newgame">Back 👈</a></button>
-                </div>
+                            <button type="submit" value="Submit"  className="btn-start" onClick={handleSubmit}><a className="btn-a-nav" onClick={handleNavigation} href='#'>Start 🎳</a></button>
+                        </div>
                     </div>
                 </div>
             </div>
+            ) : <Start values = {values}/> }
+        </div>
         )
 }
 

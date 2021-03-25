@@ -1,7 +1,7 @@
 import './App.css';
-import Register from './components/register';
-import Start from './components/start'
-import NewGame from './components/newgame';
+import Register from './components/Register';
+import Start from './components/Start'
+import NewGame from './components/Newgame';
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 function App() {

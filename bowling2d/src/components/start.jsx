@@ -1,10 +1,14 @@
-import { React } from 'react';
+import { React, useState, useEffect } from 'react';
 
 
-function Start(){
+function Start({values}){
+
 
     return(
-        <h1>Hi Start</h1>
+        <div className="container">
+            <h1 className="div-h1-playerOne">{values.playerOne}</h1>
+            <h2>{values.playerTwo}</h2>
+        </div>
     )
 }
 
