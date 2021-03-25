@@ -1,5 +1,5 @@
 import './App.css';
-import Home from './components/home';
+import Register from './components/register';
 import Start from './components/start'
 import NewGame from './components/newgame';
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
@@ -9,8 +9,8 @@ function App() {
 
     <Router>
       <Switch>
-      <Route path='/home'>
-          <Home />
+      <Route path='/register'>
+          <Register />
         </Route>
         <Route path='/start'>
           <Start />
