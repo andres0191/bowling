@@ -1,14 +1,24 @@
 import { React, Component } from 'react';
+import '../styles/newgame.scss';
+import Header from './header';
+import Footer from './footer';
+
 
 class NewGame extends Component {
     render(){
         return(
-            <div>
-                <h1>Hi, welcome to game of bowling in 2d</h1>
-                <p>Please click in this button for start the game:</p>
-                <ul>
-                    <li><a href="./home">New Game</a></li>
+            <div className="background text">
+                <div>
+                <Header/>
+                </div>
+                <h1 className='div-h1-title'>Bowling 2D</h1>
+                <p className="h1-p-paragraph">Press <a href="./home">🎳</a> to start the game.  </p>
+                <ul className="div-ul-btn">
+                    <li className="ul-li-btn"></li>
                 </ul>
+                <div>
+                    <Footer />
+                </div>
             </div>
         )
     }

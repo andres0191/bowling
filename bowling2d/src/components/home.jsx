@@ -1,4 +1,5 @@
 import { React, Component } from 'react';
+import '../styles/home.scss';
 
 class Home extends Component {
     handleClick(){
@@ -6,7 +7,7 @@ class Home extends Component {
     }
     render(){
         return(
-            <div>
+            <div className="prueba">
                 <h1>Welcome</h1><br/>
                 <p>Please insert your names for start a game</p>
                 <label>
