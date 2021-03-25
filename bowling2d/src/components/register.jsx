@@ -1,12 +1,11 @@
-import { React, Component } from 'react';
+import { React } from 'react';
+import { useDispatch } from 'react-redux';
 import '../styles/register.scss';
 import Header from './header';
 
-class Register extends Component {
+function Register() {
+    const dispatch = useDispatch();
 
-
-
-    render(){
         return(
             <div className="register">
                 <div>
@@ -17,11 +16,11 @@ class Register extends Component {
                     <div className="container-inputs">
                         <label className="div-label-firstPlayer">
                             <h4>Player 1</h4>
-                            <input className="players-inputs" id="playerOne" type="text" /* value={this.state.value1}  */placeholder="What's your name?"></input>
+                            <input className="players-inputs" id="playerOne" type="text" placeholder="What's your name?"></input>
                         </label>
                         <label className="div-label-secondPlayer">
                             <h4>Player 2</h4>
-                            <input className="players-inputs" id="playerTwo" type="text" /* value={this.state.value2} */ placeholder="What's your name?"></input>
+                            <input className="players-inputs" id="playerTwo" type="text" placeholder="What's your name?"></input>
                         </label>
                         <div className='btn'>
                     <button type="button" className="btn-start"><a className="btn-a-nav" href='./start'>Start 🎳</a></button>
@@ -31,7 +30,6 @@ class Register extends Component {
                 </div>
             </div>
         )
-    }
 }
 
 export default Register
