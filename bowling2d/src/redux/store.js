@@ -1,0 +1,1 @@
+/* configuracion del storage de los datos */
