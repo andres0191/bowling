@@ -1,0 +1,37 @@
+.text {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.div-h1-title {
+    color: whitesmoke;
+    font-size: 100px;
+    text-shadow: 0px 0px 40px blue;
+    text-align: center;
+}
+
+.h1-p-paragraph {
+    font-size: 50px;
+    color: whitesmoke;
+    text-shadow: 0px 0px 40px greenyellow;
+    text-align: center;
+}
+
+.div-ul-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ul-li-btn {
+    list-style: none;
+}
+ .ul-li-a-btn {
+    font-size: 30px;
+    width: 10%;
+    text-decoration: none;
+    background-color: rgb(144, 5, 5);
+    text-shadow: 0px 0px 10px rgb(0, 255, 0);
+    color: white;
+}
