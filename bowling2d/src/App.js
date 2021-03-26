@@ -9,10 +9,10 @@ function App() {
 
     <Router>
       <Switch>
-      <Route path='/register'>
+      <Route path='/Register'>
           <Register />
         </Route>
-        <Route path='/start'>
+        <Route path='Start'>
           <Start />
         </Route>
         <Route path="/">
