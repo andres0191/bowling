@@ -35,9 +35,13 @@ get a better result in your test.
 * May the best player win!
 
 
-## If you want to clone, and modify the code of this page you must do the following:
+# If you want to clone, and modify the code of this page you must do the following:
+
+
+### to download and modify this project you must have node.js previously installed on your local machine.
 
 1. click on git clone:
+
 <p align="center">
   <img  src="https://github.com/andres0191/bowling/blob/master/bowling2d/src/assets/gitclone.png">
 </p>
