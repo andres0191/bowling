@@ -23,6 +23,7 @@ get a better result in your test.
   <img  src="https://github.com/andres0191/bowling/blob/master/bowling2d/src/assets/imageReadme.png">
 </p>
 
+
 * When you enter you will find a series of options where you can consult the rules, instructions and the beginning of the game.
 
 * By clicking on the bowling icon, you will enter a registration form where you must enter the two names of the players.
@@ -37,10 +38,14 @@ get a better result in your test.
 ## If you want to clone, and modify the code of this page you must do the following:
 
 1. click on git clone:
+<p align="center">
+  <img  src="https://github.com/andres0191/bowling/blob/master/bowling2d/src/assets/gitclone.png">
+</p>
 
-2. clone the repository on your local machine:
+2. clone the repository on your local machine with the ```git clone``` command
 
 3. navigate to the project directory and run the ```npm install``` command from the terminal.
+
 4. to compile the project, run the command ```npm run start``` from the terminal
 
 
