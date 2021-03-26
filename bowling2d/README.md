@@ -33,4 +33,8 @@ get a better result in your test.
 
 * May the best player win!
 
+**Author**
 
+# Andres Felipe Garcia Rendon
+
+- [Github](https://github.com/andres0191) - [Twitter](https://twitter.com/andres0191) - [Linkedin](https://www.linkedin.com/in/anfegar/) - [Whatsapp](https://wa.me/573054214488)
