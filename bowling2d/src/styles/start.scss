@@ -1,1 +1,37 @@
 @import './standar.scss';
+
+.div-h1-playerOne {
+    color: white;
+    margin: 50px;
+}
+
+.pin{
+    margin:90px auto 0 auto;
+    display:block;
+    position:relative;
+    width:30px;
+    height:50px;
+    background-color:whitesmoke;
+    border-radius: 100%;
+    background-image:-webkit-linear-gradient(
+        top, whitesmoke, whitesmoke 12px,
+                red 12px, red 19px,
+                whitesmoke 19px, whitesmoke 25px,
+                red 25px, red 32px,
+                whitesmoke 32px
+      );
+}
+
+.ballOne {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin: auto;
+}
+
+.firstLine, .secondLine, .thirdLine, .lastLine   {
+    display: flex;
+    margin: -35px;
+}
+

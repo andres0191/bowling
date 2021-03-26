@@ -9,14 +9,14 @@ function Register() {
 
     const handleChange = (event) => {
         const {name, value} = event.target;
-        setValues({ ...values, [name]:value })
+        setValues({ ...values, [name]:value.toUpperCase()  })
     }
 
     const handleSubmit = (event) => {
         event.preventDefault();
         console.log(values)
     }
-    
+
     const handleNavigation = () => {
         setStatus(false)
     }

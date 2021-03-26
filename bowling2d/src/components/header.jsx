@@ -29,7 +29,7 @@ function Header() {
               },
               className:"rules"
             })
-      } 
+      }
 
       return(
         <div>
