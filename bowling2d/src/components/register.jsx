@@ -38,7 +38,7 @@ function Register() {
                                 onChange={handleChange}
                                 value={values.playerOne}
                                 name="playerOne"
-                                autocomplete="off"/>
+                                autoComplete="off"/>
                         </label>
                         <label className="div-label-secondPlayer">
                             <h4>Player 2</h4>
@@ -50,7 +50,7 @@ function Register() {
                                 onChange={handleChange}
                                 value={values.playerTwo}
                                 name="playerTwo"
-                                autocomplete="off"/>
+                                autoComplete="off"/>
                         </label>
                         <div className='btn'>
                             <button type="submit" value="Submit"  className="btn-start" onClick={handleSubmit}><a className="btn-a-nav" onClick={handleNavigation} href='#'>Start 🎳</a></button>
