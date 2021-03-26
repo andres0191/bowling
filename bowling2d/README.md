@@ -38,7 +38,7 @@ get a better result in your test.
 # If you want to clone, and modify the code of this page you must do the following:
 
 
-### to download and modify this project you must have [node.js](https://nodejs.org/es/download/) previously installed on your local machine.
+### To download and modify this project you must have [node.js](https://nodejs.org/es/download/) previously installed on your local machine.
 
 1. click on git clone:
 
