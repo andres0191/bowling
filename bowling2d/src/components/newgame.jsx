@@ -3,13 +3,12 @@ import '../styles/newgame.scss';
 import Register from './Register'
 import Header from './Header';
 
-
 function NewGame() {
 
     const [status, setStatus] = useState(true);
 
     const handleNavigation = () => {
-        setStatus(false); 
+        setStatus(false);
     }
 
     return(

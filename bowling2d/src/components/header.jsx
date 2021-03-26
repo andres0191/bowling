@@ -1,7 +1,6 @@
-import { React, useState, useEffect} from 'react';
+import { React } from 'react';
 import '../styles/header.scss';
 import Swal from 'sweetalert';
-import NewGame from './Newgame';
 
 function Header() {
 

@@ -1,7 +1,7 @@
 @import './standar.scss';
 
 .div-h1-playerOne {
-    color: white;
+    color: $text-btn-color;
     margin: 50px;
 }
 
@@ -11,14 +11,14 @@
     position:relative;
     width:30px;
     height:50px;
-    background-color:whitesmoke;
+    background-color:$title-color;
     border-radius: 100%;
     background-image:-webkit-linear-gradient(
-        top, whitesmoke, whitesmoke 12px,
+        top, $title-color, $title-coloroke 12px,
                 red 12px, red 19px,
-                whitesmoke 19px, whitesmoke 25px,
+                $title-color 19px, $title-color 25px,
                 red 25px, red 32px,
-                whitesmoke 32px
+                $title-color 32px
       );
 }
 

@@ -4,6 +4,7 @@
     background: #111;
     color: red;
 }
+
 .swal-title:not(:last-child){
     color: $text-btn-color;
 }
@@ -30,7 +31,6 @@
     display: flex;
     align-items: center;
 }
-
 
 .button{
     background: none;

@@ -1,5 +1,4 @@
-import { React, useState, useEfect } from 'react';
-import { useDispatch } from 'react-redux';
+import { React, useState } from 'react';
 import Start from './Start';
 import '../styles/register.scss';
 
