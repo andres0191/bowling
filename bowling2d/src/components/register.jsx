@@ -37,7 +37,8 @@ function Register() {
                                 placeholder="What's your name?"
                                 onChange={handleChange}
                                 value={values.playerOne}
-                                name="playerOne"/>
+                                name="playerOne"
+                                autocomplete="off"/>
                         </label>
                         <label className="div-label-secondPlayer">
                             <h4>Player 2</h4>
@@ -48,7 +49,8 @@ function Register() {
                                 placeholder="What's your name?"
                                 onChange={handleChange}
                                 value={values.playerTwo}
-                                name="playerTwo"/>
+                                name="playerTwo"
+                                autocomplete="off"/>
                         </label>
                         <div className='btn'>
                             <button type="submit" value="Submit"  className="btn-start" onClick={handleSubmit}><a className="btn-a-nav" onClick={handleNavigation} href='#'>Start 🎳</a></button>
