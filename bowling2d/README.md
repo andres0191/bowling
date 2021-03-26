@@ -33,6 +33,17 @@ get a better result in your test.
 
 * May the best player win!
 
+
+## If you want to clone, and modify the code of this page you must do the following:
+
+1. click on git clone:
+
+2. clone the repository on your local machine:
+
+3. navigate to the project directory and run the ```npm install``` command from the terminal.
+4. to compile the project, run the command ```npm run start``` from the terminal
+
+
 **Author**
 
 # Andres Felipe Garcia Rendon
