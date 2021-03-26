@@ -19,6 +19,8 @@ get a better result in your test.
 
 # Guidance through the website:
 
+![website bowling](https://github.com/andres0191/bowling/blob/master/bowling2d/src/assets/imageReadme.png)
+
 * When you enter you will find a series of options where you can consult the rules, instructions and the beginning of the game.
 
 * By clicking on the bowling icon, you will enter a registration form where you must enter the two names of the players.
