@@ -6,14 +6,15 @@ function Header() {
 
       const Rules = (event) => {
         Swal({
-              title: `Each game consists of 10 turns per person. The number of pins knocked down in the two shots is added together to count the points scored in each turn. When chuza is performed, the score on that turn is 10 plus the number of pins knocked down on the next turn. When all 10 pins are knocked down on the second throw, the score for that turn is 10 plus the number of pins knocked down on the next throw.`,
+              title: `Each game consists of 10 turns per person. The number of pins knocked down in the two shots is added together to count the points scored in each turn. When chuza is performed, the score on that turn is 10 plus the number of pins knocked down on the next turn. When all 10 pins are knocked down on the second throw, the score for that turn is 10 plus the number of pins knocked down on the next throw. `,
               showClass: {
                 popup: 'animate__animated animate__fadeInDown'
               },
               hideClass: {
                 popup: 'animate__animated animate__fadeOutUp'
               },
-              className: "rules"
+              className: "rules",
+              navigation: 'https://en.wikipedia.org/wiki/Ten-pin_bowling#Rules_of_play'
             })
       }
 

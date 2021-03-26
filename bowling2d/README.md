@@ -1,70 +1,32 @@
-# Getting Started with Create React App
+# Bowling 2D
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Bowling is a target sport and recreational activity in which a player rolls a ball toward pins (in pin bowling) or another target (in target bowling). The term bowling usually refers to ten-pin bowling, though in the United Kingdom and Commonwealth countries bowling could also refer to lawn bowls.
 
-## Available Scripts
+In pin bowling, the goal is to knock over pins on a long playing surface known as a lane. A strike is achieved when all the pins are knocked down on the first roll, and a spare is achieved if all the pins are knocked over on a second roll.
 
-In the project directory, you can run:
+[See more](https://en.wikipedia.org/wiki/Bowling)
+[Rules of Bowling](https://en.wikipedia.org/wiki/Ten-pin_bowling#Rules_of_play)
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+This project was developed with JavaScrip's React library, following the conditions:
+You can change the UI’s colors or the design to improve the user experience. The
+specification given in this document corresponds to the minimum required features to
+be developed.
+- You must use animations in some parts of the test where it is required; however, you
+can add other animations if you think that it will improve the user experience.
+- You can use CSS; however, a preprocessor like Sass, Stylus, or Less will help you to
+get a better result in your test.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+# Guidance through the website:
 
-### `npm test`
+* When you enter you will find a series of options where you can consult the rules, instructions and the beginning of the game.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+* By clicking on the bowling icon, you will enter a registration form where you must enter the two names of the players.
 
-### `npm run build`
+* After entering the names of the players and clicking Start you will enter the game lobby.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+* Clicking the Start button again will start the game. Players will have two shots per turn and their score will be accumulated over 10 turns per player.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+* May the best player win!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
