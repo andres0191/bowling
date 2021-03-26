@@ -19,7 +19,9 @@ get a better result in your test.
 
 # Guidance through the website:
 
-![website bowling](https://github.com/andres0191/bowling/blob/master/bowling2d/src/assets/imageReadme.png)
+<p align="center">
+  <img  src="https://github.com/andres0191/bowling/blob/master/bowling2d/src/assets/imageReadme.png">
+</p>
 
 * When you enter you will find a series of options where you can consult the rules, instructions and the beginning of the game.
 
